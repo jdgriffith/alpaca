@@ -78,6 +78,7 @@ export interface GetBars {
   limit?: number
   page_token?: string
   timeframe: '1Sec' | '1Min' | '1Hour' | '1Day'
+  adjustment?: 'all' | 'dividend' | 'raw' | 'split'
 }
 
 export interface GetBars_v1 {
