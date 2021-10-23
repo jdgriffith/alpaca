@@ -25,7 +25,6 @@
     "stocks",
     "stock"
   ],
-  "type": "module",
   "types": "./@types/index.d.ts",
   "typings": "./@types/index.d.ts",
   "unpkg": "./dist/alpaca.js",
